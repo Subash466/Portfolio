@@ -1,0 +1,23 @@
+.contact{
+  background-color: rgb(70, 173, 139);
+  border: 0.2rem solid rgb(29, 29, 29);
+  margin-top: 3rem;
+  border-radius: 2rem;
+  box-shadow: 3px 3px rgb(70, 69, 69) ;
+  
+}
+h2{
+  color: beige;
+}
+.container-fluid{
+  margin:0 15rem;
+  padding: 2rem;
+}
+.form-group textarea{
+  height: 100px;
+}
+@media only screen and (max-width: 480px){
+  .container-fluid{
+    margin: 1rem;
+  }
+}

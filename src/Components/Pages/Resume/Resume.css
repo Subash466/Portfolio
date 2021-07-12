@@ -1,0 +1,48 @@
+h1{
+ margin-top: 8rem;
+ margin-left: 9rem;
+ color: rgb(70, 173, 139);
+ padding: 1rem;
+}
+.resume{
+  display: flex;
+  justify-content: center;
+  margin:0 8rem;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 3px 3px rgb(59, 59, 59);
+  padding: 5rem;
+}
+
+
+.modal-content{
+  width: 900px;
+  height: 800px;
+  background-color: rgb(70, 173, 139);
+  color: beige;
+}
+
+.modal-body embed{
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+  h1{
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+  .modal-content{
+    width: 320px;
+    height: 600px;
+  }
+ .modal-body embed{
+  width: 300px;
+  height: 400px;
+ }
+ .resume{
+   margin: 0 2rem;
+ }
+}

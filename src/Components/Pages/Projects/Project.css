@@ -1,0 +1,53 @@
+.project{
+  display: flex;
+
+}
+
+.project h1{
+ font-size: 5rem;
+ padding: 1rem;
+ margin-top: 5rem;
+ color: rgb(70, 173, 139);
+}
+.project  span{
+  font-size: 5rem;
+  padding: 1rem;
+  margin-top: 5.5rem;
+  color: rgb(70, 173, 139);
+}
+.list{
+  margin-left: 40rem;
+}
+.one h3{
+  text-align: center;
+  padding: 1rem;
+  color: rgb(70, 173, 139);
+}
+ .one img{
+   width: 300px;
+   border: 0.5rem solid rgb(30, 30, 31);
+   box-shadow: 3px 3px rgb(25, 25, 26);
+   border-radius: 2rem;
+ }
+ .one img:hover{
+   transform: scale(1.1);
+ }
+ @media only screen and (max-width: 480px){
+  .project{
+    display: flex;
+    flex-direction: column;
+  }
+  .list{
+    margin-left: 0;
+  }
+  .project  span{
+    display: none;
+  }
+  .project  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .one {
+   margin-left:1rem ;
+  }
+ }

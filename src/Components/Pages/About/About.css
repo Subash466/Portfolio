@@ -1,0 +1,67 @@
+.about{
+  display: flex;
+  margin-top:2rem ;
+}
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.details p{
+  width: 300px;
+  padding: 3rem;
+  border: 0.5rem solid rgb(231, 229, 229);
+  font-size: 2rem;
+  border-radius: 2rem;
+  box-shadow: 2px 3px gray;
+  color:rgb(70, 173, 139) ;
+}
+
+.info{
+  margin-left: 20rem;
+}
+.info h2{
+  color:rgb(70, 173, 139) ;
+}
+.info li{
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.skills{
+  background-color:rgb(70, 173, 139) ;
+}
+.skills h1{
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  text-align: center;
+  font-size: 4.5rem;
+  border: 0.3rem solid rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  box-shadow: 2px 3px rgb(43, 43, 43);
+}
+.skills-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.skills-img p{
+  font-size: 2rem;
+  color: rgb(49, 49, 49);
+}
+
+@media only screen and (max-width: 480px){
+  .info{
+    margin-left: 0;
+  }
+  .info li{
+    font-size: 1.5rem;
+  }
+  .skills-img{
+    flex-direction: column;
+  }
+  .skills h1{
+    font-size: 3rem;
+  }
+}

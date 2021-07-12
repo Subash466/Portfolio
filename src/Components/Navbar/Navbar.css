@@ -1,0 +1,15 @@
+#mynav{
+ font-size: 2rem;
+ padding:1rem 2rem;
+
+}
+#mynav li{
+  padding-left: 5rem;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 480px){
+  #mynav li{
+    padding-left: 1rem;
+  }
+}
