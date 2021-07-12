@@ -1,0 +1,46 @@
+.footer{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(31, 31, 31);
+  color: rgb(250, 250, 250);
+  margin-top: 5rem;
+  padding: 5rem;
+  justify-content: space-around;
+  border: 0.5rem solid rgb(73, 72, 72);
+  border-radius: 1rem;
+
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  
+}
+.link a{
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 1rem;
+}
+a:hover{
+ color:rgb(61, 156, 194) ;
+}
+.info{
+  display: flex;
+  flex-direction:column;
+  font-size: 2rem;
+}
+.info p{
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 480px){
+  .footer{
+    margin-top: 1rem;
+    padding: 3rem;
+  }
+  .info{
+    font-size: 1.5rem;
+  }
+  .link{
+    font-size: 1.5rem;
+  }
+}
