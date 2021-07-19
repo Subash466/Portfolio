@@ -69,4 +69,10 @@
   .one {
    margin-left:1rem ;
   }
+  .one img:hover{
+    transform: scale(1);
+  }
+  .one .github a{
+    width:300px
+  }
  }
