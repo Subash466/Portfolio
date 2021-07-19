@@ -10,11 +10,17 @@ const About = () => {
     <div className="about" id="about">
       <div className="container">
          <div className="details" >
-            <p className="col-sm-6">I'm student of Anna Univercity,Chennai and Pursuing Alchemyst Full Stack Developer Program in Skill Safari. My Goal is become Full Stack developer and develope more Websites and Apps. </p>
+            <p className="col-sm-6">I'm student of Anna University,Chennai and passionate about developing  websites and Apps. Even though I'm biotechnology student , I had an interest in web development , this attraction led towards gaining skill in Full Stack Development . Now I'm happy being a React  Developer and pursuing Full Stack Developer Program course in Skill Safari. My Goal is become a Full Stack developer and develope more Websites and Apps. </p>
              <span className="col-sm-6 info"> 
               <span>
                 <h2>EDUCATION</h2>
-                 <li>Completed Bachelor of Technology in Alagappa College of Technology, Anna University, Chennai</li>
+                <li>Completed Bachelor of Technology in Alagappa College of Technology, Anna University, Chennai</li>
+              </span>
+              <span>
+                <h2>Work Experience</h2>
+                <li>Pursuing Alchemyst Full Stack Developer Program in skill safari </li>
+                <li>Completed Skill Safari Summer Internship Program 2021</li>
+                <li> Completed online training on Website Development Mastery program on ACADEMY OF WEALTH </li>
               </span>
               <span>
                 <h2>INTERESTS</h2>

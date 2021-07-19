@@ -8,7 +8,7 @@
   
 }
 .details p{
-  width: 300px;
+  width: 350px;
   padding: 3rem;
   border: 0.5rem solid rgb(231, 229, 229);
   font-size: 2rem;
@@ -27,6 +27,7 @@
   padding: 0.5rem;
   font-size: 1.8rem;
   line-height: 2.1rem;
+  list-style-position: initial;
 }
 
 .skills{
@@ -52,6 +53,9 @@
 }
 
 @media only screen and (max-width: 480px){
+  .details p{
+    width: 300px;
+  }
   .info{
     margin-left: 0;
   }
