@@ -11,7 +11,7 @@ const Footer = () => {
       <a href="https://www.linkedin.com/in/subash-balraj/" ><img src={linkedin} alt="logo" /> linkedin</a>
       </div>
       <div className="info">
-        <p><span className="glyphicon glyphicon-envelope">subashbalraj28@gmail</span></p>
+        <p><span className="glyphicon glyphicon-envelope"> subashbalraj28@gmail</span></p>
         <p><span className="glyphicon glyphicon-phone"> 6379409646</span></p>
       </div>
     </div>
