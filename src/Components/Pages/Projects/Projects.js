@@ -7,14 +7,14 @@ import tic from '../../Images/tic.PNG'
 
 const Projects = () => {
   return (
-    <div className="project container" id="project">
-    <h1>Projects </h1> <span className="glyphicon glyphicon-arrow-right"></span>
+    <div className="project" id="project">
+    <h1>Projects </h1>
     <div className="list">
       <div className="one img-rounded">
       <h3>Movie-Review</h3>
       <a  href="https://movies-revies-fsd21a.netlify.app/" target="_blank" rel="noreferrer"><img src={movie} alt="Movie-review" /></a>
       <div className="github ">
-        <a className="glyphicon glyphicon-file" href="https://github.com/Subash466/movies-review" target="_blank" rel="noreferrer"> Code</a>
+      <a className="glyphicon glyphicon-file" href="https://github.com/Subash466/movies-review" target="_blank" rel="noreferrer"> Code</a>
       </div>
       </div>
       <div className="one img-rounded">

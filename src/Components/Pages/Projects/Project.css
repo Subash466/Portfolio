@@ -1,13 +1,14 @@
-.project{
-  display: flex;
-
-}
 
 .project h1{
  font-size: 4.5rem;
- padding: 1rem;
+ padding: 2rem;
  margin-top: 5rem;
- color: rgb(70, 173, 139);
+ border: 0.3rem solid rgb(26, 25, 25);
+ border-radius: 1rem;
+ text-align: center;
+ box-shadow: 2px 3px rgb(102, 102, 102);
+ color: rgb(70, 173, 139);;
+ font-weight: 500;
 }
 .project  span{
   font-size: 5rem;
@@ -16,21 +17,26 @@
   color: rgb(70, 173, 139);
 }
 .list{
-  margin-left: 40rem;
+ display: grid;
+ grid-template-columns:  1fr  1fr  ;
 }
-
+.one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .one h3{
-  text-align: center;
   padding: 1rem;
-  color: rgb(70, 173, 139);
+  color : rgb(70, 173, 139);
 }
- .one img{
+.one img{
    width: 300px;
    border: 0.5rem solid rgb(30, 30, 31);
    box-shadow: 3px 3px rgb(25, 25, 26);
    border-radius: 2rem;
  }
- .one .github a{
+.one .github a{
+   width: 300px;
    border: 0.3rem solid rgb(22, 22, 22);
    background-color: rgb(41, 43, 41);
    color: white;
@@ -57,7 +63,7 @@
     flex-direction: column;
   }
   .list{
-    margin-left: 0;
+    grid-template-columns: 1fr;
   }
   .project  span{
     display: none;

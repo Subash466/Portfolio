@@ -1,4 +1,4 @@
-h1{
+.resume-title {
  margin-top: 8rem;
  margin-left: 9rem;
  color: rgb(70, 173, 139);
@@ -30,7 +30,7 @@ h1{
 }
 
 @media only screen and (max-width: 480px){
-  h1{
+  .resume-title{
     margin-top: 4rem;
     margin-left: 1rem;
   }

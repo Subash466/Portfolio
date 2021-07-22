@@ -5,7 +5,7 @@ import "./Resume.css"
 const Resume = () => {
   return (
   <>
-  <h1>Resume</h1>
+<h1 className="resume-title">Resume</h1>
 <div className="resume" id="resume">
 <button type="button" className="btn btn-info btn-lg secondary" data-toggle="modal" data-target="#myModal">Open Resume</button>
 <div id="myModal" className="modal fade" role="dialog">
