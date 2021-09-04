@@ -3,7 +3,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="nav-tag">
       <nav className="navbar navbar-inverse navbar-fixed top">
               <div className="container">
             <div className="navbar-header ">
@@ -12,11 +12,12 @@ const Navbar = () => {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button>
+                <h1>Developer</h1>
              </div>
                   <div className="collapse navbar-collapse" id="mynav" >
                   <ul className="nav navbar-nav navbar-right"> 
-                      <li ><a href="#home"><span className="glyphicon glyphicon-home"></span> Home</a></li>
-                      <li ><a href="#about"><span className="glyphicon glyphicon-user"></span> About</a></li>
+                      <li ><a href="/" ><span className="glyphicon glyphicon-home"></span> Home</a></li>
+                      <li ><a href="#about" onScroll><span className="glyphicon glyphicon-user"></span> About</a></li>
                       <li ><a href="#project"><span className="glyphicon glyphicon-education"></span> Projects</a></li>
                       <li ><a href="#resume"><span className="glyphicon glyphicon-list-alt"></span> Resume</a></li>
                       <li ><a href="#contact"><span className="glyphicon glyphicon-envelope"></span> Contact</a></li>

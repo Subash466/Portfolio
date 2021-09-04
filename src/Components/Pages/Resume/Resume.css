@@ -1,23 +1,30 @@
-.resume-title {
- margin-top: 8rem;
- margin-left: 9rem;
- color: rgb(70, 173, 139);
- padding: 1rem;
-}
 .resume{
   display: flex;
-  justify-content: center;
-  margin:0 8rem;
-  border-radius: 2rem;
-  box-shadow: 3px 3px 3px 3px rgb(59, 59, 59);
+  flex-direction: column;
+  background-color: rgb(7, 7, 7);
+  width: 100%;
   padding: 5rem;
 }
 
-
+.resume h1{
+  color: rgb(255, 255, 255);
+}
+.resume button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-left: 45%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+  border-radius: 15px;
+}
 .modal-content{
   width: 900px;
   height: 800px;
-  background-color: rgb(70, 173, 139);
+  background-color: rgb(36, 36, 36);
   color: beige;
 }
 
@@ -30,9 +37,8 @@
 }
 
 @media only screen and (max-width: 480px){
-  .resume-title{
-    margin-top: 4rem;
-    margin-left: 1rem;
+  .resume button{
+    margin-left: 15%;
   }
   .modal-content{
     width: 320px;
@@ -42,7 +48,5 @@
   width: 300px;
   height: 400px;
  }
- .resume{
-   margin: 0 2rem;
- }
+
 }

@@ -1,23 +1,31 @@
 .contact{
-  background-color: rgb(70, 173, 139);
-  border: 0.2rem solid rgb(29, 29, 29);
-  margin-top: 3rem;
-  border-radius: 2rem;
-  box-shadow: 3px 3px rgb(70, 69, 69) ;
-  
+  background-color: rgb(7, 7, 7);
 }
-h2{
-  color: beige;
+.contact h2{
+  color: rgb(255, 255, 255);
 }
 .container-fluid{
   margin:0 15rem;
   padding: 2rem;
+  padding-top: 7rem;
+}
+.form-group label{
+  color: aliceblue;
+}
+.form-group input{
+  background-color: rgb(199, 199, 199);
+  color: #000000;
+  font-weight: bold;
 }
 .form-group textarea{
   height: 100px;
+  background-color: rgb(199, 199, 199);
+  color: #000000;
+  font-weight: bold;
 }
 @media only screen and (max-width: 480px){
   .container-fluid{
-    margin: 1rem;
+    margin: 0 1rem;
+    padding-top: 1rem;
   }
 }

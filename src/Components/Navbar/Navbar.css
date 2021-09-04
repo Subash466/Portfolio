@@ -1,15 +1,50 @@
 #mynav{
  font-size: 2rem;
  padding:1rem 2rem;
-
 }
-#mynav li{
-  padding-left: 5rem;
-  margin: 0.5rem;
+.nav-tag{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  margin-bottom: 15rem;
 }
 
+.navbar-header h1{
+  color: #FC5404;
+}
+
+#mynav li {
+  margin: 0.5rem 0;
+  width: 160px;
+  display: flex;
+  text-align: center;
+  justify-content:space-evenly;
+}
+#mynav li a{
+  color: rgb(228, 228, 228);
+}
+#mynav  li a:hover{
+  transform: scale(1.1);
+  background-color: #FC5404;
+  border-radius: 5px;
+  color: rgb(255, 254, 254);
+  font-weight: bold;
+}
 @media only screen and (max-width: 480px){
   #mynav li{
     padding-left: 1rem;
+  }
+  .nav-tag{
+    position:relative;
+    margin-bottom: -2rem;
+  }
+  .navbar-header h1{
+    font-size: 2.5rem;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  .navbar-header button{
+   margin-top: 15px;
   }
 }

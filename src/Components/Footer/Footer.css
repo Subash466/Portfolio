@@ -1,14 +1,13 @@
 .footer{
   display: flex;
   flex-direction: row;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(19, 19, 19);
   color: rgb(250, 250, 250);
-  margin-top: 5rem;
   padding: 5rem;
   justify-content: space-around;
-  border: 0.5rem solid rgb(73, 72, 72);
-  border-radius: 1rem;
-
+  border: 0.1rem solid #000000;
+  box-shadow: inset 2px 3px #2c2c2c;
+  border-radius: 3px;
 }
 .link{
   display: flex;
@@ -25,7 +24,7 @@
   width: 25px;
 }
 a:hover{
- color:rgb(61, 156, 194) ;
+ color:#FC5404;
 }
 .info{
   display: flex;
@@ -37,7 +36,6 @@ a:hover{
 }
 @media only screen and (max-width: 480px){
   .footer{
-    margin-top: 1rem;
     padding: 3rem;
   }
   .info{

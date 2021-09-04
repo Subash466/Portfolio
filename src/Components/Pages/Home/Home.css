@@ -1,17 +1,70 @@
 .home{
-  background-color: rgb(70, 173, 139);
+  background-color: #0f0f0f;
   padding: 1rem;
-  padding-bottom: 4rem;
-}
-.home h3{
+  padding-top: 20rem;
+  height: 95vh;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
   display: flex;
-  justify-content: center;
-  font-size: 4rem;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.home h3{
+  font-size: 3rem;
   color: beige;
 }
-.home p{
+.home h3 span{
+  color: #FC5404;
+}
+.home-container{
   display: flex;
+  width: 50%;
+  align-items: center;
   justify-content: center;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 15rem;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.right h4{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.right h4 span{
+  color: #FC5404;
+}
+.home button{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin-top: 1rem;
+  width: 150px;
+  margin: 1rem;
+  border-radius: 25px;
+}
+.home button:hover{
+  background-color: rgb(3, 3, 3);
+  color: #ffffff;
+}
+.home .contact:hover{
+  transform: scale(1.2);
+  background-color: #FC5404;
+  color: rgb(255, 255, 255);
+}
+.home p{
   font-size: 2.5rem;
   color: beige;
 }
@@ -22,21 +75,39 @@
 }
 
 .home-img img{
-   width: 250px;
+   width: 280px;
    margin-top:3rem ;
 }
 
+
 @media only screen and (max-width: 480px){
+  .home{
+   padding-top: 10rem;
+   height: 85vh;
+  }
+  .home-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .home-img img{
     width: 150px;
-    margin-top:3rem ;
+    margin-top:-6rem;
  }
  .home h3{
-  font-size: 3rem;
+  font-size: 2rem;
+}
+.home h3 span{
+  display: none;
 }
 .home p{
   font-size: 1.5rem;
   text-align: center;
 }
-
+.left{
+  margin-right: 2rem;
+}
+.right h4{
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
 }
